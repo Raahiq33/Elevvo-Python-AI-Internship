@@ -56,3 +56,30 @@ The official Elevvo practice website scraping and robots.txt verification are pe
 Elevvo – Python Programming & AI Internship
 
 Task 6: Job Listings Scraper & Market Analysis
+
+## Public Website Scraping
+
+Practice Website:
+https://realpython.github.io/fake-jobs/
+
+Script: real_jobs_scraper.py
+
+### Features
+- Scrapes 100 fictional job listings
+- Extracts job titles, companies, locations, and posted dates
+- Analyzes job roles and locations using pandas
+- Exports scraped data to real_jobs.csv
+- Handles HTTP request errors
+
+### Ethical Scraping
+Checked https://realpython.github.io/robots.txt
+The URL returned HTTP 404 (not found).
+This does not imply general scraping permission.
+The Fake Jobs page is intended for web scraping practice.
+
+### Data Limitations
+The public practice website contains fictional jobs and
+does not provide structured required-skills data.
+
+Skill frequency analysis uses a separate, locally created
+sample HTML dataset. The two datasets are not combined.
